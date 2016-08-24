@@ -10,7 +10,8 @@ ColloctionView循环滚动控件，考虑到程序的效率，以及用户体验
     [scrollView images:@[[UIImage imageNamed:@"占位图"]]];   // 可设置占位图
     
     // 等网络下好图片在替换上
-    [scrollView images:@[m1, m2]];                           
+    [scrollView images:@[m1, m2]];   
+    scrollView.duringTime = 1.0;        // 设置轮播时间
     [self.view addSubview:scrollView];
     
     // 图片可以点击，有代理方法传出点击 index
