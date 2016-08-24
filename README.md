@@ -3,6 +3,8 @@ ColloctionView循环滚动控件，考虑到程序的效率，以及用户体验
 
 能适应用户手指不离开屏幕一直滑动的极端情况，实现思路在注释中有详细说明
 
+![](https://github.com/hehe520/ColloctionView-banner/blob/master/pic.gif)
+
 使用方式：
 ```
     CircleScrollView *scrollView = [[CircleScrollView alloc] initWithFrame:CGRectMake(0, 20, 375, 175)];
